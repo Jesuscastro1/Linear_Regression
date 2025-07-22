@@ -31,14 +31,13 @@ self.sum_y same concept as sum_x
 self.sum_xy each x and y value multiplied together so 1 * 6 etc then added together 1*6 + 2*9 + 3*12 etc 
 self.sum_x2 all the x values to the power of two added together so 1^2 + 2^2 + 3^2 etc 
 
+Simple linear regression explanation: 
+So in the first version that I built this one is one x variable only
+
 Slope function:
 For this function we use this formula 
+∑ - sum of 
+^2 - squared 
+m = (n∑xy - ∑x∑y) / (n∑x^2 - (∑x)^2)
 
-
-<img width="538" height="90" alt="image" src="https://github.com/user-attachments/assets/a6338a38-e3e7-43c6-9355-b1d9c4198a53" />
-
-
-
-
-
-
+Working as 
