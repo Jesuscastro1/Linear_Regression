@@ -34,7 +34,9 @@ self.sum_x2 all the x values to the power of two added together so 1^2 + 2^2 + 3
 Slope function:
 For this function we use this formula 
 
-<img width="545" height="209" alt="image" src="https://github.com/user-attachments/assets/e8d66f02-8392-4119-90b2-0c7d5c64f616" />
+
+<img width="538" height="90" alt="image" src="https://github.com/user-attachments/assets/a6338a38-e3e7-43c6-9355-b1d9c4198a53" />
+
 
 
 
