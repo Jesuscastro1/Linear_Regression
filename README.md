@@ -32,6 +32,11 @@ self.sum_xy each x and y value multiplied together so 1 * 6 etc then added toget
 self.sum_x2 all the x values to the power of two added together so 1^2 + 2^2 + 3^2 etc 
 
 Slope function:
-For this function we use the formula <img width="398" height="66" alt="image" src="https://github.com/user-attachments/assets/4448a78b-b926-462e-afd8-4e669d47c6eb" />
+For this function we use this formula 
+
+<img width="545" height="209" alt="image" src="https://github.com/user-attachments/assets/e8d66f02-8392-4119-90b2-0c7d5c64f616" />
+
+
+
 
 
