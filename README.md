@@ -32,7 +32,11 @@ self.sum_xy each x and y value multiplied together so 1 * 6 etc then added toget
 self.sum_x2 all the x values to the power of two added together so 1^2 + 2^2 + 3^2 etc 
 
 Simple linear regression explanation: 
-So in the first version that I built this one is one x variable only
+It will make the classic equation - Y = b + mx
+Y - dependent
+x - independent
+b - intercept
+m - coefficient 
 
 Slope function:
 For this function we use this formula 
@@ -40,4 +44,21 @@ For this function we use this formula
 ^2 - squared 
 m = (n∑xy - ∑x∑y) / (n∑x^2 - (∑x)^2)
 
-Working as 
+Working as its essentially another version of y/x 
+
+Y-intercept function:
+b = ∑y - m*∑x / n
+
+LN[3]
+This cell we test the model with the data given to see how accuracte the model is to it. 
+Initializing it with the data then coming up with the slope and y-int with the functions we made. 
+
+y_pred we iterate through every x value multiplying it by the slope and then adding the y-intercept to make the famous equation y = mx + b 
+
+Then I plot it to see what the results were(IDK why it doesn't show up here but feel free to try it out for yourself I promise it works) Using matplotlib to represent my predictions on a graph. Scatter to represent real data then predicted line to represent the equation I derived from the data itself. 
+
+LN[4]
+data = pd.read_csv("student_scores.zip")
+I used this to make the zip into a readable dataset to train my model on.  
+
+
