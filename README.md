@@ -61,4 +61,14 @@ LN[4]
 data = pd.read_csv("student_scores.zip")
 I used this to make the zip into a readable dataset to train my model on.  
 
+Next is a custom built standardization function based on:
+Equation: z = (x - μ) / σ
+σ (sigma)- is used to represent the stanard deviation of the population
+μ (mu) - is used to represent the mean of the population
+x - individual value 
+To do this I iterated through each item in each column of the df calculating the std and means of the column before hand. 
 
+For the last line I made a small change to the df to plot it.
+
+LN[5]
+Manuel one hot encoder 
