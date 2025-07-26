@@ -83,5 +83,6 @@ LN[6]
 Now we get into data visualization with box plots! 
 
 Box Plot: 
+
 <img width="326" height="155" alt="image" src="https://github.com/user-attachments/assets/5d49c26d-0ea1-4443-9e8a-8f1c7694ee40" />
 
