@@ -68,7 +68,20 @@ Equation: z = (x - μ) / σ
 x - individual value 
 To do this I iterated through each item in each column of the df calculating the std and means of the column before hand. 
 
-For the last line I made a small change to the df to plot it.
+For the last line I removed the non-numerical value of the df in order plot/visualize the data.
 
 LN[5]
-Manuel one hot encoder 
+In this cell I build a manual one hot encoder, which makes non-numerical data into 0/1 to represent the values. An example would be like the Extracurricular Activites where instead of being a yes or no we use a 1 for yes and 0 for no. 
+
+Explanation of the code: 
+As said earlier I imported is_numeric_type for one reason and it was this to check if the columns values were a number or not. So as we iterate through the df's columns the encoder checks for val is number. If it is the function returns the column, however if it isn't there's a whole new process. In the function I set a unique_vals to all the unique values of the non-numeric column. So this one will only have 2 values "yes" and "no". And if that is the case with only 2 values I go to the if function and then assign it only 0/1 iterating through each value of the column and returning it. But the amount of values is greater than 2 we return a long number of 0s and 1s representing the non-numerical value passed through the function. 
+
+LN[5]
+When running the programm initially and making this project a big flaw I had was if the values in the data set weren't a float the linear regression would be not even close to the actual values. So I made a simple function that makes all the values of the df a float. 
+
+LN[6]
+Now we get into data visualization with box plots! 
+
+Box Plot: 
+<img width="326" height="155" alt="image" src="https://github.com/user-attachments/assets/5d49c26d-0ea1-4443-9e8a-8f1c7694ee40" />
+
