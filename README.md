@@ -106,4 +106,34 @@ This cell was made to ensure that the things I had built were functioning.
 
 LN[10]
 
-Manual Multi-Linear regression 
+Manual Multi-Linear regression:
+For this we have multiple independent varibles go through and predict one dependent variable.
+
+__init__(self,df):
+I make the class and initialize key variables with a dataframe being passed in. 
+self.x/self.y seperate all independent variables from dependent. Then I split data into train(x/y) and test(x/y) 80:20 split. Then I added straight 1s for the first column of the X train/test in order to represent an intercept 
+
+Beta(self):
+ ˆβ = (XᵀX)⁻¹XᵀY
+ 
+Xᵀ - inverse the Matrix so ex:
+
+[[2,2,3], -> tranpose -> [[3,2,2],
+[2,6,7]]                [7,6,2]]
+
+()⁻¹ - inverse 
+
+[[4, 7], -> [[ 0.6 -0.7],
+[2, 6]]     [-0.2  0.4]]
+
+This is the training part of the model in order to get the proper coeffients for testing.
+
+predict(self): 
+
+Multiply the independent values by coefficients to get a score prediction
+
+se_beta(self,prediction): 
+
+Finding the standard Error of the beta coefficient: 
+
+
