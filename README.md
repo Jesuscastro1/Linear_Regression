@@ -136,4 +136,37 @@ se_beta(self,prediction):
 
 Finding the standard Error of the beta coefficient: 
 
+D - diag of inverse of self.xᵀ * self.x
 
+How does diagonal work? 
+
+[[2,3,4],                     
+ [3,4,2], --> diag function --> [2,4,4] 
+ [6,7,4]]
+
+ y residual - ŷ - subtracting the predicted y values from the actual ones calculated 
+
+ resSum - sum of all the ŷ ^ 2
+Ex: [2,3,4,5] -> resSum -> 54
+
+Se(standard error) - ( ŷ / (number of rows - number of columns))
+
+Then to get the standard error of the beta we multiply the standard error by the cdiag that we had calculated before hand. 
+
+This is our first evaluation method. There's two more that I used R^2 value and MSE.
+
+evaluate(self,predictions):
+
+r2_score - the closer to 1(neg or pos) means the model is more accurate. R² quantifies how much of the variability in the outcome (dependent) variable is explained by the model's predictions. So if you have a score of .7 that means that 70% of the variation is accounted for by the model by 30% is unexplained. 
+
+Mean Standard Error - the precision of the model the smaller the number the better it is. 
+
+My model scored
+R^2: .9890
+MSE: 4.0826
+
+sklearn scored: 
+R^2: .9889
+MSE: 4.08262
+
+Meaning that my model is now industry standard! 
