@@ -92,13 +92,13 @@ LN[7]
 
 Here I plot all the values in comparision to each other in a scatter plot trying to find the positive and negative correlations. And in this dataset we see only positive correlations. 
 
-<img width="326" height="155" alt="image" src="https://github.com/user-attachments/assets/e8a23d20-9258-445e-9c51-9c92f1664c53" />
+<img width="326" height="326" alt="image" src="https://github.com/user-attachments/assets/e8a23d20-9258-445e-9c51-9c92f1664c53" />
 
 LN[8]
 
 In cell 8 I graph a heat map which shows how much each variables correlate with each other. Before the calculations are made I standardize the data to ensure all features are on the same scale. Ensuring that features with large numerical values don't overpower the calculations. 
 
-<img width="326" height="155" alt="image" src="https://github.com/user-attachments/assets/8bf9dff5-131b-4ae2-8b0d-eee98c886218" />
+<img width="326" height="326" alt="image" src="https://github.com/user-attachments/assets/8bf9dff5-131b-4ae2-8b0d-eee98c886218" />
 
 LN[9]
 
