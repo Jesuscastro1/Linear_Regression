@@ -1,4 +1,4 @@
-# Linear_Regression
+# Linear_Regression from scratch 
 Built Linear Regression using the math behind it and compared it to SKLearns version 
 
 Data set used: https://www.kaggle.com/datasets/nikhil7280/student-performance-multiple-linear-regression
@@ -80,9 +80,17 @@ LN[5]
 When running the programm initially and making this project a big flaw I had was if the values in the data set weren't a float the linear regression would be not even close to the actual values. So I made a simple function that makes all the values of the df a float. 
 
 LN[6]
-Now we get into data visualization with box plots! 
+Now we get into data visualization with box plots! Iterating through each value to get a sense of data's values and to see if there's any outliers. 
 
 Box Plot: 
 
+A box plot splits the data into four equal parts (quartiles). The box shows the middle 50% of values, from the first quartile (Q1) to the third quartile (Q3), with a line in the center marking the median. The “whiskers” extend to the lowest and highest values within 1.5×IQR of the quartiles. Any extreme values beyond this range are plotted as outliers to avoid skewing the visualization.
+
 <img width="326" height="155" alt="image" src="https://github.com/user-attachments/assets/5d49c26d-0ea1-4443-9e8a-8f1c7694ee40" />
+
+LN[7]
+
+Here I plot all the values in comparision to each other in a scatter plot trying to find the positive and negative correlations. And in this dataset we see only positive correlations. 
+
+<img width="683" height="686" alt="image" src="https://github.com/user-attachments/assets/e8a23d20-9258-445e-9c51-9c92f1664c53" />
 
